@@ -47,7 +47,7 @@ export default function Hero() {
         </div> */}
 
         {/* Main Title */}
-        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-white leading-tight mb-4 mt-15 tracking-tight">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-white leading-tight mb-4 mt-20 tracking-tight">
           Authentic Japanese{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-orange-400">
             Ramen Experience
@@ -102,14 +102,6 @@ export default function Hero() {
           </button>
         </div>
       </div>
-
-      {/* Scroll Indicator */}
-      {/* <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-bounce">
-        <span className="text-white/40 text-xs tracking-widest">SCROLL</span>
-        <svg className="w-5 h-5 text-white/40" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-        </svg>
-      </div> */}
     </section>
   );
 }
