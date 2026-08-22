@@ -38,7 +38,6 @@ export default function About() {
                 />
               </div>
 
-              {/* Floating badge top-left */}
               <div className="absolute -top-5 -left-5 bg-red-600 text-white rounded-2xl px-5 py-3 shadow-xl shadow-red-200">
                 <div className="text-2xl font-black">Since</div>
                 <div className="text-3xl font-black leading-none">2021</div>
@@ -62,13 +61,11 @@ export default function About() {
                 </div>
               </div>
 
-              {/* Decorative circle */}
               <div className="absolute -z-10 -top-8 -right-8 w-48 h-48 rounded-full bg-red-900/10" />
               <div className="absolute -z-10 -bottom-8 -left-8 w-32 h-32 rounded-full bg-amber-900/10" />
             </div>
           </div>
 
-          {/* Content Side */}
           <div className={`transition-all duration-1000 delay-200 ${inView ? "opacity-100 translate-x-0" : "opacity-0 translate-x-12"}`}>
             {/* Section Tag */}
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-zinc-800 border border-zinc-700 mb-6">
